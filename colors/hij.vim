@@ -7,7 +7,6 @@ let colors_name = "ij"
 set background=light
 
 if version > 580
- hi clear
  if exists("syntax_on")
   syntax reset
  endif
