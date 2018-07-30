@@ -2,7 +2,7 @@
 " Maintainer:  Nick Hamilton (n@deeplucid.xyz)
 " Last Change:  2018-07-18
 
-let colors_name = "ij"
+let colors_name = "hij"
 
 set background=light
 
@@ -64,7 +64,7 @@ hi SignColumn guifg=black guibg=white
 " vert status line
 hi StatusLine		guibg=#f2f2f2 guifg=#f2f2f2 gui=none
 hi StatusLineNC			guibg=#f2f2f2 guifg=#f2f2f2 gui=none
-" vertical seperator
+" vertical window seperator
 hi VertSplit		guibg=#ffffff guifg=#9b9b9b gui=none
 " line numbers
 hi LineNr			guibg=#ffffff guifg=#999999 gui=none
