@@ -70,11 +70,12 @@ hi! Search			guibg=#ccccff guifg=none gui=none
 " Menu and highlighted menu items
 hi! Pmenu guibg=#f2f2f2 guifg=#000080 gui=none
 hi! PmenuSel guibg=#9c998e guifg=#000080 gui=none
+" Status bar error messages
+hi! WarningMsg guibg=white guifg=red gui=none
 
 hi! Folded			guibg=red guifg=red gui=none
 hi! Title			guibg=red guifg=red gui=none
 hi! SpecialKey		guibg=blue guifg=blue gui=none
-hi! WarningMsg guibg=blue guifg=blue gui=none
 hi! ErrorMsg		guibg=green guifg=blue gui=none
 hi! CursorLine guibg=green guifg=blue gui=none
 
