@@ -72,12 +72,14 @@ hi! Pmenu guibg=#f2f2f2 guifg=#000080 gui=none
 hi! PmenuSel guibg=#9c998e guifg=#000080 gui=none
 " Status bar error messages
 hi! WarningMsg guibg=white guifg=red gui=none
+" tag bar file titles, etc
+hi! Title			guibg=white guifg=black gui=italic
+" special characters
+hi! SpecialKey		guibg=white guifg=#f2f2f2 gui=none
 
-hi! Folded			guibg=red guifg=red gui=none
-hi! Title			guibg=red guifg=red gui=none
-hi! SpecialKey		guibg=blue guifg=blue gui=none
-hi! ErrorMsg		guibg=green guifg=blue gui=none
-hi! CursorLine guibg=green guifg=blue gui=none
+hi! Folded			guibg=white guifg=#f2f2f2 gui=none
+hi! ErrorMsg		guibg=white guifg=blue gui=none
+hi! CursorLine guibg=white guifg=blue gui=none
 
 " Dif
 hi! DiffAdd						guibg=green guifg=blue gui=none
